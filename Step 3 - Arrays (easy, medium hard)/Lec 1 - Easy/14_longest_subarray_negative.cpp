@@ -20,7 +20,6 @@ int getLongestSubarray(vector<int>& a, int k) {
             preSumMap[sum] = i;
         }
     }
-
     return maxLen;
 }
 
